@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIModelo", "APIModelo\APIModelo.csproj", "{B2C07584-BC25-4A2A-B730-623B798EF46D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{B9DB4610-F180-48B9-8CA0-87426C0FDAEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{9975A6DA-C3C5-4A6A-8184-35E6EE159303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Service", "3-Service", "{BF151FF1-83AC-4FDD-A6F1-A7A8BBFDE89F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{339E6825-F7C8-46EC-9F3B-8DE15A591233}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{3CAEF305-F818-4A54-939E-7EB5A31FDBE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{0D1D1F0A-1FCC-428D-99FA-642C073CD79E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIModelo", "APIModelo\APIModelo.csproj", "{53FAF3E3-ECBB-45D0-9E4B-87637E383ACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +23,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B2C07584-BC25-4A2A-B730-623B798EF46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2C07584-BC25-4A2A-B730-623B798EF46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2C07584-BC25-4A2A-B730-623B798EF46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2C07584-BC25-4A2A-B730-623B798EF46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FAF3E3-ECBB-45D0-9E4B-87637E383ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FAF3E3-ECBB-45D0-9E4B-87637E383ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FAF3E3-ECBB-45D0-9E4B-87637E383ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FAF3E3-ECBB-45D0-9E4B-87637E383ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CAEF305-F818-4A54-939E-7EB5A31FDBE5} = {339E6825-F7C8-46EC-9F3B-8DE15A591233}
+		{0D1D1F0A-1FCC-428D-99FA-642C073CD79E} = {339E6825-F7C8-46EC-9F3B-8DE15A591233}
+		{53FAF3E3-ECBB-45D0-9E4B-87637E383ACF} = {B9DB4610-F180-48B9-8CA0-87426C0FDAEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96F7A0FB-ECC9-454D-B0EC-4800E4766CC7}
